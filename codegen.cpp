@@ -16,13 +16,13 @@ static constexpr std::array<const char*, 40> kAdjectives = {
     "starry",   "moonlit",  "brazen",   "devoted",  "loving",
 };
 
-static constexpr std::array<const char*, 40> kNouns = {
+static constexpr std::array<const char*, 41> kNouns = {
     "labrys",   "violet",   "orchid",   "iris",     "lilac",    "wisteria", "hyacinth",
     "peony",    "aster",    "tulip",    "magnolia", "jasmine",  "hydrangea","camellia",
     "dahlia",   "marigold", "poppy",    "zinnia",   "freesia",  "gardenia", "azalea",
     "begonia",  "calla",    "daffodil", "foxglove", "geranium", "heather",  "primrose",
     "sunflower","tuberose", "sappho",   "lesbos",   "amazon",   "muse",     "siren",
-    "valkyrie", "nymph",    "goddess",  "vixen",    "rose",
+    "valkyrie", "nymph",    "goddess",  "vixen",    "rose",     "lily",
 };
 
 std::string RandomCodename(std::mt19937& rng) {
